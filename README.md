@@ -11,6 +11,7 @@
    ```bash
    git clone https://github.com/kakashijs1/TailwindProject.git
    cd TailwindProject
+   cd app
    ```
 2. **Install dependencies**
 
