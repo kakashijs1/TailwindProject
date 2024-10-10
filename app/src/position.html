@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-gray-500">
+
+        <div class="flex flex-col items-center justify-center min-h-screen gap-14">
+
+            <div class="relative">
+                <div class="bg-black text-white rounded-xl border-2 border-red-500 text-3xl p-6">Parent element แม่</div>
+
+                <div class="absolute -right-4 -bottom-6">
+                    <div class="bg-red-600 ring-4 ring-orange-500 text-white rounded-full text-lg p-2 px-3">ลูก</div>
+                </div>
+
+            </div>
+
+            <div class="relative">
+                <div class="bg-black text-white rounded-xl text-3xl p-6">Parent element แม่</div>
+
+                <div class="absolute -left-4 -bottom-6">
+                    <div class="bg-red-600 px-3 ring-4 ring-orange-500 text-white rounded-full text-lg p-2">ลูก</div>
+                </div>
+
+            </div>
+
+            <div class="relative">
+                <div class="bg-black text-green-500 border-2 border-green-500 rounded-xl text-3xl p-6"><i class="fa-solid fa-bell mr-2 text-black bg-gray-100 p-2 rounded-full"></i>Message</div>
+
+                <div class="absolute -right-4 -top-6">
+                    <div class="bg-black px-3 ring-2 ring-green-500 text-white font-bold rounded-full text-lg p-2">2+</div>
+                </div>
+
+            </div>
+
+           
+
+
+        </div>
+
+        <nav class="fixed top-0 bg-black text-white right-0 left-0 h-16 
+        text-3xl flex items-center justify-between p-4 ml-24">
+            <div>header</div>
+
+                <div class="flex gap-4">
+                    <p class="bg-red-500 p-2 rounded-lg">img</p>
+                    <p class="bg-red-500 p-2 rounded-lg">icon</p>
+                </div>
+        </nav>
+
+        <aside class="fixed left-0 top-0 bottom-0 bg-black text-white w-24 h-screen">
+            <div class="flex flex-col  items-center justify-between  h-full">
+
+                <div>
+                    <button class="bg-red-500 px-6 py-2 text-white mt-10 rounded-lg">My1</button>
+                </div>
+
+                <div>
+                    <button class="bg-red-500 px-6 py-2 text-white mt-10 mb-10 rounded-lg">out</button>
+                </div>
+            </div>
+        </aside>
+
+        <footer class="fixed bottom-0 right-0 left-0 bg-black text-white ml-24 h-16 text-2xl">
+            <div>Footer</div>
+        </footer>
+
+</body>
+</html>
