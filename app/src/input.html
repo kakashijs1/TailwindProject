@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input form</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-black text-white">
+
+     <div class="w-screen h-screen flex flex-col gap-y-4 items-center justify-center">
+
+        <div class="flex  flex-col gap-2">
+            <label 
+            class="text-green-500 font-bold"
+            for=""> <i class="fa-solid fa-user mr-2 text-[20px] text-green-500"></i> USER </label>
+
+            <input 
+            placeholder="กรุณากรอกข้อมูลของท่าน"
+            class="w-[300px] py-2 rounded-md px-4 border-2 border-green-500 text-black
+            focus:outline-none  focus:border-orange-300 
+            hover:border-orange-500"
+            type="text" >
+        </div>
+
+        <div class="flex flex-col gap-2  ">
+            <label 
+            class="text-orange-500"
+            for=""><i class="fa-solid fa-key text-orange-500"></i> Password</label>
+           <div class="relative">
+            <input 
+            class="w-[300px] group  h-[44px] py-2  first-line: rounded-lg px-8 border-2 border-orange-500 text-black"
+            type="password"> <i class="fa-solid fa-lock   absolute top-4 left-3 text-black "></i>
+           </div>
+        </div>
+
+        <div class="flex flex-col gap-2">
+            <label 
+            class="text-yellow-500"
+            for=""><i class="fa-solid fa-phone mr-2 text-yellow-500"></i>Phone </label>
+            <input 
+            class="py-2 px-4 w-[300px] rounded-xl border-2 border-yellow-500
+            placeholder:text-yellow-500 text-black" 
+            placeholder="กรุณากรอกเบอร์โทรศัพท์"
+            type="number">
+        </div>
+
+
+        <div class="flex flex-col items-start text-black">
+            <label
+            class="text-white tracking-wider" 
+            for="">โปรดเลือก</label>
+            <select class=" appearance-none w-24  rounded-lg text-yellow-600  ">
+                <option class="text-center mr-2" disabled selected>รายการ</option>
+                <option class="bg-green-500 text-white">Tailwind</option>
+                <option class=" bg-yellow-500 text-white">JavaScript</option>
+                <option value="">Php</option>
+                <option value="">JAVA</option>
+                <option value="">GO</option>
+            </select>
+        </div>
+
+        <!-- 0px คือการขยับในแนวแกน x
+        4px คือการขยับในแนวแกน y
+        20px คือขนาดของความฟุ้งของเงา
+        0px คือความเข้มของเงา -->
+        <div class="flex">
+           <button class="px-6 py-3 border-2 border-white rounded-lg  text-green-500
+           shadow-[0px_14px_20px_0px_green]">
+            check  <i class="fa-solid fa-check "></i>
+           </button>
+        </div>
+
+        <div class="flex mt-10">
+            <button class="px-6 py-3 border-b-2 w-[300px] border-orange-300 rounded-lg  text-orange-500
+            shadow-[0px_24px_20px_1px_orange]
+            hover:shadow-[0px_20px_25px_0px_white] transition-all duration-300 hover:text-white hover:border-cyan-300">
+             check  <i class="fa-solid fa-check "></i>
+            </button>
+         </div>
+
+     </div>
+
+</body>
+</html>
