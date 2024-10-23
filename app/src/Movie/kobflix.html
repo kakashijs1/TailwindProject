@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kobfilx</title>
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=qr_code_scanner" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=dashboard" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body class="bg-black">
+
+    <div class="container w-screen h-screen">
+
+        <!-- navbar -->
+         <div class="w-screen h-20 bg-zinc-950/[2] text-white flex items-center justify-between  z-10 px-14">
+
+              <section class="flex">
+                <h1>
+                    <img 
+                    class="w-44 h-22 object-cover"
+                    src="../Movie/Element/images/logo.png" alt="">
+                </h1>
+
+                <div class="flex items-center   gap-4 ml-10">
+                    <a href="" class="hover:text-red-500  hover:underline hover:scale-105 transition-all duration-500 hover:font-bold">Home</a>
+                    <a href="" class="hover:text-red-500  hover:underline hover:scale-105 transition-all duration-500 hover:font-bold">Tv Show</a>
+                    <a href="" class="hover:text-red-500  hover:underline hover:scale-105 transition-all duration-500 hover:font-bold">Movie</a>
+                    <a href="" class="hover:text-red-500  hover:underline hover:scale-105 transition-all duration-500 hover:font-bold">New & Popular</a>
+                    <a href="" class="hover:text-red-500  hover:underline hover:scale-105 transition-all duration-500 hover:font-bold">My List</a>
+                </div>
+
+              </section>
+
+              <section>
+
+                <div class="flex items-center gap-4 text-white">
+                    <a href="" class="hover:text-red-500  hover:underline hover:scale-105 transition-all duration-500 hover:font-bold">Drama</a>
+                    <a href="" class="hover:text-red-500  hover:underline hover:scale-105 transition-all duration-500 hover:font-bold">War</a>
+                    <i class="fa-solid fa-magnifying-glass hover:text-red-500    hover:scale-105 transition-all duration-500 hover:font-bold"></i>
+                    <i class="fa-solid fa-bell hover:text-red-500    hover:scale-105 transition-all duration-500 hover:font-bold"></i>
+                   <div>
+                    <img 
+                    class="w-10 rounded-md object-cover hover:-translate-y-1 hover:scale-150 transition-all duration-500"
+                    src="../Movie/Element/images/iconuser.jpg" alt="">
+                   </div>
+                </div>
+
+              </section>
+
+         </div>
+        <!-- navbar -->
+
+        <!-- video --> 
+         <div class="w-screen h-screen relative flex ">
+            <video src="../Movie/Element/video/video.mp4" muted loop autoplay></video>
+            <div class="text-white absolute top-1 left-10 space-y-4 w-full   flex items-center justify-between px-4">
+
+                <div class="flex flex-col gap-y-4 text-sm text-gray-200">
+                    <img src="../Movie/Element/images/image2.webp" alt="">
+                    <p>| After we Collided | กลับมาสานต่อเรื่องราวความรักสุดฮอต</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, quo.</p>
+                    <p>"ฮาร์ดิน" และ "เทสซ่า" เจอกันอีกครั้ง หลังจากมีเหตุให้ทั้งคู่ต้องเลิกรากัน</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat ratione vitae quia animi </p>
+                </div>
+
+                <div>
+                    <img src="../Movie/Element/images/landing/l2.png" alt="">
+                </div>
+
+            </div>
+         </div>
+        <!-- video -->
+
+        <!-- silder1 -->
+         <section 
+            class="w-screen   ml-10 text-white py-10 absolute top-[650px]" >
+
+            <p class="text-xl">ซีรี่ย์เกาหลี</p>
+            
+            <div class="owl-carousel owl-theme text-white">
+
+                <!-- ซีรี่ย์1 -->
+                <div class="item">
+                   
+                        <!-- card -->
+                         <section class="item bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                             <div>
+                                <img src="../Movie/Element/images/korean/img1.jpeg" alt="">
+                             </div>
+
+                             <div class="p-3">
+                                    <section class="flex justify-between  ">
+
+                                        <div class="flex space-x-3">
+                                            <i class="fa-regular fa-circle-play"></i>
+                                            <i class="fa-solid fa-plus"></i>
+                                        </div>
+
+                                        <div>
+                                            <i class="fa-solid fa-circle-down"></i>
+                                        </div>
+
+                                    </section>
+                                    <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                                    <p>Crime . Triller . Drama</p>
+                             </div>
+
+                         </section>
+
+                </div>
+             <!-- ซีรี่ย์1 -->
+
+
+             <!-- ซีรี่ย์2 -->
+             <div class="item">
+                   
+                <!-- card -->
+                 <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                     <div>
+                        <img src="../Movie/Element/images/korean/img2.jpeg" alt="">
+                     </div>
+
+                     <div class="p-3">
+                            <section class="flex justify-between  ">
+
+                                <div class="flex space-x-3">
+                                    <i class="fa-regular fa-circle-play"></i>
+                                    <i class="fa-solid fa-plus"></i>
+                                </div>
+
+                                <div>
+                                    <i class="fa-solid fa-circle-down"></i>
+                                </div>
+
+                            </section>
+                            <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                            <p>Crime . Triller . Drama</p>
+                     </div>
+
+                 </section>
+
+        </div>
+         <!-- ซีรี่ย์2 -->
+
+
+         <!-- ซีรี่ย์3 -->
+         <div class="item">
+                   
+            <!-- card -->
+             <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                 <div>
+                    <img src="../Movie/Element/images/korean/img3.jpeg" alt="">
+                 </div>
+
+                 <div class="p-3">
+                        <section class="flex justify-between  ">
+
+                            <div class="flex space-x-3">
+                                <i class="fa-regular fa-circle-play"></i>
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+
+                            <div>
+                                <i class="fa-solid fa-circle-down"></i>
+                            </div>
+
+                        </section>
+                        <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                        <p>Crime . Triller . Drama</p>
+                 </div>
+
+             </section>
+
+        </div>
+     <!-- ซีรี่ย์3 -->
+
+       <!-- ซีรี่ย์4 -->
+       <div class="item">
+                   
+        <!-- card -->
+         <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+             <div>
+                <img src="../Movie/Element/images/korean/img4.webp" alt="">
+             </div>
+
+             <div class="p-3">
+                    <section class="flex justify-between  ">
+
+                        <div class="flex space-x-3">
+                            <i class="fa-regular fa-circle-play"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-down"></i>
+                        </div>
+
+                    </section>
+                    <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                    <p>Crime . Triller . Drama</p>
+             </div>
+
+         </section>
+
+    </div>
+    <!-- ซีรี่ย์4 -->
+
+    <!-- ซีรี่ย์5 -->
+    <div class="item">
+                   
+        <!-- card -->
+         <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+             <div>
+                <img src="../Movie/Element/images/korean/img5.jpeg" alt="">
+             </div>
+
+             <div class="p-3">
+                    <section class="flex justify-between  ">
+
+                        <div class="flex space-x-3">
+                            <i class="fa-regular fa-circle-play"></i>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <div>
+                            <i class="fa-solid fa-circle-down"></i>
+                        </div>
+
+                    </section>
+                    <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                    <p>Crime . Triller . Drama</p>
+             </div>
+
+         </section>
+
+    </div>
+    <!-- ซีรี่ย์5 -->
+
+
+            </div>
+             
+
+         </section>
+        <!-- silder -->
+
+          <!-- silder2 -->
+          <section 
+          class="w-screen   ml-10 text-white py-10 absolute top-[990px] mt-4" >
+
+          <p class="text-xl">ซีรี่ย์กำลังมาแรง</p>
+          
+          <div class="owl-carousel owl-theme text-white">
+
+              <!-- ซีรี่ย์1 -->
+              <div class="item">
+                 
+                      <!-- card -->
+                       <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                           <div>
+                              <img src="../Movie/Element/images/trending/img1.webp" alt="">
+                           </div>
+
+                           <div class="p-3">
+                                  <section class="flex justify-between  ">
+
+                                      <div class="flex space-x-3">
+                                          <i class="fa-regular fa-circle-play"></i>
+                                          <i class="fa-solid fa-plus"></i>
+                                      </div>
+
+                                      <div>
+                                          <i class="fa-solid fa-circle-down"></i>
+                                      </div>
+
+                                  </section>
+                                  <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                                  <p>Crime . Triller . Drama</p>
+                           </div>
+
+                       </section>
+
+              </div>
+           <!-- ซีรี่ย์1 -->
+
+
+           <!-- ซีรี่ย์2 -->
+           <div class="item">
+                 
+              <!-- card -->
+               <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                   <div>
+                      <img src="../Movie/Element/images/trending/img2.jpeg" alt="">
+                   </div>
+
+                   <div class="p-3">
+                          <section class="flex justify-between  ">
+
+                              <div class="flex space-x-3">
+                                  <i class="fa-regular fa-circle-play"></i>
+                                  <i class="fa-solid fa-plus"></i>
+                              </div>
+
+                              <div>
+                                  <i class="fa-solid fa-circle-down"></i>
+                              </div>
+
+                          </section>
+                          <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                          <p>Crime . Triller . Drama</p>
+                   </div>
+
+               </section>
+
+      </div>
+       <!-- ซีรี่ย์2 -->
+
+
+       <!-- ซีรี่ย์3 -->
+       <div class="item">
+                 
+          <!-- card -->
+           <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+               <div>
+                  <img src="../Movie/Element/images/trending/img3.webp" alt="">
+               </div>
+
+               <div class="p-3">
+                      <section class="flex justify-between  ">
+
+                          <div class="flex space-x-3">
+                              <i class="fa-regular fa-circle-play"></i>
+                              <i class="fa-solid fa-plus"></i>
+                          </div>
+
+                          <div>
+                              <i class="fa-solid fa-circle-down"></i>
+                          </div>
+
+                      </section>
+                      <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                      <p>Crime . Triller . Drama</p>
+               </div>
+
+           </section>
+
+      </div>
+   <!-- ซีรี่ย์3 -->
+
+     <!-- ซีรี่ย์4 -->
+     <div class="item">
+                 
+      <!-- card -->
+       <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+           <div>
+              <img src="../Movie/Element/images/trending/img4.jpeg" alt="">
+           </div>
+
+           <div class="p-3">
+                  <section class="flex justify-between  ">
+
+                      <div class="flex space-x-3">
+                          <i class="fa-regular fa-circle-play"></i>
+                          <i class="fa-solid fa-plus"></i>
+                      </div>
+
+                      <div>
+                          <i class="fa-solid fa-circle-down"></i>
+                      </div>
+
+                  </section>
+                  <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                  <p>Crime . Triller . Drama</p>
+           </div>
+
+       </section>
+
+  </div>
+  <!-- ซีรี่ย์4 -->
+
+  <!-- ซีรี่ย์5 -->
+  <div class="item">
+                 
+      <!-- card -->
+       <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+           <div>
+              <img src="../Movie/Element/images/trending/img5.jpeg" alt="">
+           </div>
+
+           <div class="p-3">
+                  <section class="flex justify-between  ">
+
+                      <div class="flex space-x-3">
+                          <i class="fa-regular fa-circle-play"></i>
+                          <i class="fa-solid fa-plus"></i>
+                      </div>
+
+                      <div>
+                          <i class="fa-solid fa-circle-down"></i>
+                      </div>
+
+                  </section>
+                  <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                  <p>Crime . Triller . Drama</p>
+           </div>
+
+       </section>
+
+  </div>
+  <!-- ซีรี่ย์5 -->
+
+
+          </div>
+           
+
+       </section>
+      <!-- silder2 -->
+
+       <!-- silder3 -->
+       <section 
+       class="w-screen   ml-10 text-white py-10 absolute top-[1350px]" >
+
+       <p class="text-xl">ซีรี่ย์เกาหลี</p>
+       
+       <div class="owl-carousel owl-theme text-white">
+
+           <!-- ซีรี่ย์1 -->
+           <div class="item">
+              
+                   <!-- card -->
+                    <section class="item bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                        <div>
+                           <img src="../Movie/Element/images/korean/img1.jpeg" alt="">
+                        </div>
+
+                        <div class="p-3">
+                               <section class="flex justify-between  ">
+
+                                   <div class="flex space-x-3">
+                                       <i class="fa-regular fa-circle-play"></i>
+                                       <i class="fa-solid fa-plus"></i>
+                                   </div>
+
+                                   <div>
+                                       <i class="fa-solid fa-circle-down"></i>
+                                   </div>
+
+                               </section>
+                               <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                               <p>Crime . Triller . Drama</p>
+                        </div>
+
+                    </section>
+
+           </div>
+        <!-- ซีรี่ย์1 -->
+
+
+        <!-- ซีรี่ย์2 -->
+        <div class="item">
+              
+           <!-- card -->
+            <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+                <div>
+                   <img src="../Movie/Element/images/korean/img2.jpeg" alt="">
+                </div>
+
+                <div class="p-3">
+                       <section class="flex justify-between  ">
+
+                           <div class="flex space-x-3">
+                               <i class="fa-regular fa-circle-play"></i>
+                               <i class="fa-solid fa-plus"></i>
+                           </div>
+
+                           <div>
+                               <i class="fa-solid fa-circle-down"></i>
+                           </div>
+
+                       </section>
+                       <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                       <p>Crime . Triller . Drama</p>
+                </div>
+
+            </section>
+
+   </div>
+    <!-- ซีรี่ย์2 -->
+
+
+    <!-- ซีรี่ย์3 -->
+    <div class="item">
+              
+       <!-- card -->
+        <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+            <div>
+               <img src="../Movie/Element/images/korean/img3.jpeg" alt="">
+            </div>
+
+            <div class="p-3">
+                   <section class="flex justify-between  ">
+
+                       <div class="flex space-x-3">
+                           <i class="fa-regular fa-circle-play"></i>
+                           <i class="fa-solid fa-plus"></i>
+                       </div>
+
+                       <div>
+                           <i class="fa-solid fa-circle-down"></i>
+                       </div>
+
+                   </section>
+                   <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+                   <p>Crime . Triller . Drama</p>
+            </div>
+
+        </section>
+
+   </div>
+<!-- ซีรี่ย์3 -->
+
+  <!-- ซีรี่ย์4 -->
+  <div class="item">
+              
+   <!-- card -->
+    <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+        <div>
+           <img src="../Movie/Element/images/korean/img4.webp" alt="">
+        </div>
+
+        <div class="p-3">
+               <section class="flex justify-between  ">
+
+                   <div class="flex space-x-3">
+                       <i class="fa-regular fa-circle-play"></i>
+                       <i class="fa-solid fa-plus"></i>
+                   </div>
+
+                   <div>
+                       <i class="fa-solid fa-circle-down"></i>
+                   </div>
+
+               </section>
+               <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+               <p>Crime . Triller . Drama</p>
+        </div>
+
+    </section>
+
+</div>
+<!-- ซีรี่ย์4 -->
+
+<!-- ซีรี่ย์5 -->
+<div class="item">
+              
+   <!-- card -->
+    <section class=" bg-zinc-900/[0.5] cursor-pointer overflow-hidden rounded-md hover:scale-105 transition-all duration-500">
+        <div>
+           <img src="../Movie/Element/images/korean/img5.jpeg" alt="">
+        </div>
+
+        <div class="p-3">
+               <section class="flex justify-between  ">
+
+                   <div class="flex space-x-3">
+                       <i class="fa-regular fa-circle-play"></i>
+                       <i class="fa-solid fa-plus"></i>
+                   </div>
+
+                   <div>
+                       <i class="fa-solid fa-circle-down"></i>
+                   </div>
+
+               </section>
+               <p> <span class="text-green-500">95% Match</span> Limited Serires</p>
+               <p>Crime . Triller . Drama</p>
+        </div>
+
+    </section>
+
+</div>
+<!-- ซีรี่ย์5 -->
+
+
+       </div>
+        
+
+    </section>
+   <!-- silder3 -->
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="owl-carousel owl-theme">
+        <div class="item"><h4>1</h4></div>
+        <div class="item"><h4>2</h4></div>
+        <div class="item"><h4>3</h4></div>
+        <div class="item"><h4>4</h4></div>
+        <div class="item"><h4>5</h4></div>
+        <div class="item"><h4>6</h4></div>
+        <div class="item"><h4>7</h4></div>
+        <div class="item"><h4>8</h4></div>
+        <div class="item"><h4>9</h4></div>
+        <div class="item"><h4>10</h4></div>
+        <div class="item"><h4>11</h4></div>
+        <div class="item"><h4>12</h4></div>
+    </div> -->
+
+    <button class="px-6 py-2 bg-gray-800 text-gray-400">
+        Button
+    </button>
+
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    dots: false,
+    nav: false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
+
+</body>
+</html>
